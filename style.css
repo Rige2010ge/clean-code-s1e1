@@ -30,7 +30,7 @@
 .task-input-el {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .add-input-wrapper {
   display: flex;
@@ -118,7 +118,7 @@
 
 .tasks-item > .label-el,
 .tasks-item > .input-el[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .btn.task-delete-btn .btn-del {
   height: 2em;
@@ -138,10 +138,10 @@
 /* Edit Task */
 .tasks-list .tasks-item .input-el[type=text],
 .tasks-list .tasks-item.edit-container .label-el {
-  display: none
+  display: none;
 }
 
 .tasks-list .tasks-item.edit-container .input-el[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
